@@ -13,12 +13,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/lrodica/practice-software-testing-cypress/issues"
   },
   "homepage": "https://github.com/lrodica/practice-software-testing-cypress#readme",
   "devDependencies": {
-    "cypress": "^15.18.0"
+    "cypress": "^15.18.0",
+    "typescript": "^6.0.3"
   }
 }
