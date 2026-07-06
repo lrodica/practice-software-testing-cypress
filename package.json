@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,13 @@
   },
   "homepage": "https://github.com/lrodica/practice-software-testing-cypress#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "cypress": "^15.18.0",
-    "typescript": "^6.0.3"
+    "eslint": "^10.6.0",
+    "eslint-plugin-cypress": "^6.4.2",
+    "globals": "^17.7.0",
+    "jiti": "^2.7.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.63.0"
   }
 }
