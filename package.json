@@ -1,0 +1,44 @@
+{
+  "name": "practice-software-testing-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "lint": "eslint .",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrodica/practice-software-testing-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lrodica/practice-software-testing-cypress/issues"
+  },
+  "homepage": "https://github.com/lrodica/practice-software-testing-cypress#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "cypress": "^15.18.0",
+    "eslint": "^10.6.0",
+    "eslint-plugin-cypress": "^6.4.2",
+    "globals": "^17.7.0",
+    "husky": "^9.1.7",
+    "jiti": "^2.7.0",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.9.4",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.63.0"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}
