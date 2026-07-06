@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/lrodica/practice-software-testing-cypress/issues"
   },
-  "homepage": "https://github.com/lrodica/practice-software-testing-cypress#readme"
+  "homepage": "https://github.com/lrodica/practice-software-testing-cypress#readme",
+  "devDependencies": {
+    "cypress": "^15.18.0"
+  }
 }
